@@ -72,7 +72,6 @@ numpy==1.26.4
 orjson==3.10.11
 packaging==24.2
 pandas==2.2.3
-pdfminer==20191125
 pdfminer.six==20240706
 pillow==11.0.0
 preshed==3.0.9
