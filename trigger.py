@@ -9,7 +9,7 @@ def trigger(pdf_path, approach):
     sections = extract_specific_sections(extracted_text)
     save_sections_to_files(sections)
 
-    genai.configure(api_key="AIzaSyCMrbfa7llJ2mrwKidwdYqKmX17qHMksss")
+    genai.configure(api_key="AIzaSyC5__MQpMSlfWoZcqH2om--K8jhjXkTuZk")
     model = genai.GenerativeModel("gemini-1.5-pro")
 
     path_tad = "title_and_authors.txt"
