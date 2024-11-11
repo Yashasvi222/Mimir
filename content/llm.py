@@ -117,6 +117,7 @@ def few_shot_learning(abstract, conclusion, model):
 
 
 if __name__ == "__main__":
+    ...
     # genai.configure(api_key="AIzaSyCrTcuC5KSq7CaeV_mSuuJkOIQgFcaxYrc")
 
 
