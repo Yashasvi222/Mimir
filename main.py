@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
 
     os.makedirs(UPLOAD_DIR, exist_ok=True)  # Streamlit interface
-    st.title("PDF Processor")
+    st.title("Mimir")
 
     # File uploader for multiple PDF files
     uploaded_files = st.file_uploader("Choose PDF files", type="pdf", accept_multiple_files=True)
